@@ -1,0 +1,981 @@
+/* Enterprise Training Development  */
+.row-bg{
+    background: rgba(153, 153, 153, 0.09);
+    box-shadow: 2px 2px 5px;
+    border-radius: 50px 0 50px 0;
+    margin: 2rem 0;
+}
+.row .content{
+    width: 100%;
+    text-align: center;
+}
+.row .content:first-child{
+    font-size: 22px;    
+
+}
+.row .content2 p{
+    text-align: justify ;
+    padding-right: 2rem;
+   
+}
+.content img{
+    padding: 2rem 0;
+}
+
+/* website development */
+
+.webcontent{
+    background:linear-gradient(to right, rgba(30, 67, 86, 0.5), rgba(30, 67, 86, 0.6)), url(/assets/img/web.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.webText{
+    padding: 6rem;
+    color: rgb(255, 255, 255);
+}
+.webText :last-child, h1{
+    width: 60%;
+}
+.webText h4{
+    color: rgba(218, 218, 218, 0.774);
+    font-size: 18px;
+
+}
+
+/* description start  */
+
+/* left section  */
+
+.Desc{  
+    position: relative;
+}
+.Desc::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background:rgba(38, 86, 110, 0.788);
+    position: absolute;
+    left: 50%;
+
+}
+.DescDiv{
+    padding-right: 2rem;
+}
+.descText{
+    color: rgba(38, 86, 110, 0.788);
+    position: relative;
+}
+.descText::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background:  rgba(38, 86, 110, 0.788);
+}
+.Desc i{
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    font-size: 22px;
+    color: #fff;
+    background: rgba(38, 86, 110, 0.788);
+}
+.Desc .descPara {
+    font-size: 14px;
+}
+.Desc .descPara2{
+    color: rgba(58, 58, 58, 0.904);
+    font-size: 14px;
+}
+
+/* Right section  */
+
+.DescDiv2{
+    width: 100%;
+    margin-left: 2rem;
+}
+.descText2{
+    width: 100%;
+    position: relative;
+}
+.descText2::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background:  rgba(38, 86, 110, 0.788);
+}
+.DescDiv2 i {
+    margin-left: 0;
+    margin-right: 0.5rem !important;
+}
+.DescDiv2 span{
+    font-size: 14px;
+}
+
+.design-Text h6, h3{
+    color: rgba(38, 86, 110, 0.788);
+    font-weight: 600;
+}
+.design-Text h3{
+    position: relative;
+}
+.design-Text h3::after{
+    content: "";
+    width: 5.5rem;
+    height: 3px;
+    background-color: rgba(38, 86, 110, 0.788);
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    transform: translate(-50%, -50%);
+}
+.icon-head i{
+    font-size: 50px !important;
+    padding: 1rem 0;
+}
+.icon-head h6{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(38, 86, 110, 0.884);
+    position: relative;
+}
+.icon-head h6::after{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    background-color: rgba(38, 86, 110, 0.884);
+    position: absolute;
+    left: 50%;
+    bottom: -100%;
+    transform: translate(-50%);
+}
+.icon-head p{
+    color: #636363cc;
+    margin-top: 3rem;
+}
+.design-content > div:hover{
+    transform: translateY(-15px) !important;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 8%);
+    
+}
+
+/* ===============media query========== */
+
+
+@media(max-width: 700px){
+    .row-bg{
+        border-radius: 0;
+        box-shadow: 1px 1px 5px 1px;
+    }
+    .row .content2 p{
+        padding: 0 1rem;
+    }
+    .webText{
+        padding: 5rem 0;
+    }
+    .webText h1, h4{
+        width: 100%;
+    }
+}
+@media(max-width: 993px){
+    .DescDiv2{
+        margin: 0px !important;
+    }
+    .Desc::after{
+        display: none;
+    
+    }
+}
+
+
+/* Database section  */
+
+.dataSection{
+    padding: 0 !important;
+}
+.database-content{
+    background:linear-gradient(to right, rgba(20, 36, 44, 0.733), rgba(19, 34, 41, 0.822)), url(/assets/img/database.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.database-content i{
+    padding: 5rem;
+    font-size: 15rem;
+}
+.data-Text h1{
+    color: rgb(248, 248, 248);
+}
+.data-Text p{
+    color: rgb(189, 189, 189);
+}
+.database-images img{
+    width: 150px;
+    margin: 0 3rem;
+}
+.about-database .left-colum1{
+    
+    background: rgba(173, 173, 173, 0.123);
+    transition: all 0.5s linear;
+    
+}
+.about-database .left-colum1:hover{
+    
+    border:1.5px solid rgb(79, 165, 158);
+    border-radius: 0 50px 0 50px;
+    transform: translateY(-20px);
+    
+}
+.about-database .left-colum1 h1{
+    font-size: 22px;
+    padding: 2rem 1rem 0 1rem;
+    color: rgb(79, 165, 158);
+}
+.about-database .left-colum1 ul{
+    color: rgb(48, 48, 48);
+}
+
+.dataContact{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255) ;
+    color: #fff;
+    padding: 0.5rem 3rem;
+    margin: 5rem 0;
+    transition: all 0.5s linear;
+}
+.dataContact:hover{
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+.fa-phone{
+    margin-left: 1rem;
+    animation: contact 1s linear infinite;
+}
+@keyframes contact{
+    0%{transform: rotate(0);}
+    50%{transform: rotate(10deg);}
+    100%{transform: rotate(30deg);}
+}
+
+
+
+
+
+/* media query */
+
+@media(max-width:993px){
+    .database-content i{
+        display: none;
+    }
+    .data-Text{
+        padding: 5rem 0;
+    }
+    .data-Text h1{
+        padding-bottom: 2rem;
+        font-size: 22px;
+    }
+}
+
+
+/* ----------------------Flash to HTML5------------- */
+.flashcontent{
+    background:linear-gradient(to right, rgba(30, 70, 90, 0.541), rgba(36, 61, 73, 0.5));
+}
+.flash img{
+    margin: auto;
+    
+    
+} 
+.flashcontent .flashText{
+
+    line-height: 1.5rem;
+}
+.flashcontent .flashText h1{
+    width: 100%;
+    padding-top: 4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.flashcontent .flashText h4{
+    color: rgb(209, 209, 209);
+    padding-bottom: 1rem;
+}
+.flashcontent .flashText span{
+    color: rgb(255, 153, 0);
+}
+.flashcontent .flashText p{
+    color: rgb(216, 216, 216);
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 2rem;
+    
+}
+
+
+
+table{
+    background: #d6d4d41f;
+    box-shadow: -2px 2px 5px 0;
+}
+table td{
+    width: 50%;
+    border: 0.5px solid rgba(71, 71, 71, 0.315);
+}
+.flashService1 > h2{
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.flashService1 h2 > span{
+    color: rgb(255, 153, 0);
+}
+.flashService h3{
+    font-size: 20px;
+    color: rgb(255, 153, 0);
+}
+
+.flashService img{
+    width: 100px;
+    padding: 1rem 0 0 1rem
+    
+}
+table p{
+    font-size: 14px;
+    color: rgba(75, 75, 75, 0.753);
+    padding: 0 0.5rem;
+}
+
+
+
+
+
+
+
+/* media query   */
+
+@media(max-width:770px){
+    .flash img{
+        width: 50%; 
+    } 
+    .flashcontent .flashText h1{
+        padding-top: 0;
+    }
+    .flashService {
+        text-align: center;   
+    }
+    table p{
+        text-align: center;   
+    }
+    .flashService h3{
+        font-size: 18px;
+    }
+    
+    .flashService img{
+        width: 70px;
+        padding: 1rem 0 0 1rem;
+        
+    }
+    .flashService1 > h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:450px){
+}
+@media(max-width:450px){
+    .flashcontent .flashText h1{
+        font-size: 25px;
+    }
+    .flashcontent .flashText h4{
+    font-size: 20px;
+    }
+    .flashcontent .flashText p{
+        font-size: 14px;
+    }
+    
+}
+
+/* --------------------mobile app devlopment--------- */
+
+.breadcrumb2{
+    padding-bottom: 0 !important;
+}
+.mobile-app > .row > .col-lg-6{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.mobile-app{
+    background: #000;
+}
+.mobile-app .mobileContent{
+    display: flex;
+    margin-left: 5rem;
+
+}
+
+.mobile-info h4 span{
+    color: rgba(0, 217, 255, 0.822);
+}
+.mobile-info h4{
+    position: relative;
+}
+.mobile-info h4::after{
+    content: "";
+    background: rgba(0, 217, 255, 0.822);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+}
+.mobile-info .mobilePara{
+    margin-top: 2rem;
+    font-size: 15px;
+    color: #3a3a3ab6;
+}
+.mobileBtn{
+    background: rgba(0, 217, 255, 0.822);
+    border: 1px solid rgba(0, 217, 255, 0.822);
+    color: #ffffff;
+    padding: 0.1rem 1rem;
+    font-size: 14px; 
+    font-weight: 400;
+    
+}
+.mobileBtn:hover{
+    background: rgba(0, 217, 255, 0.356);
+    box-shadow:  rgba(107, 107, 107, 0.397) -1px 5px 10px;
+
+}
+
+.mobile-service-text span{
+    color: rgba(0, 217, 255, 0.822);
+    font-weight: 500;
+}
+.bottom-border{
+    position: relative;
+}
+.bottom-border::after{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: rgba(0, 217, 255, 0.822);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mobile-data .mobile-data-list ul{
+    list-style: none;
+}
+.mobile-data .mobile-data-list ul li{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center; 
+    word-spacing: 5px;
+}
+.mobile-data .mobile-data-list ul li i{
+    color: rgba(0, 217, 255, 0.822);
+    font-size: 18px;
+}
+.mobile-data .mobile-data-list ul li p{
+    margin: 0;
+    margin-left: 1rem;
+    transition: all 0.5s  ease-in-out;
+}
+.mobile-data .mobile-data-list ul li p:hover{
+    transform: translateX(10px);
+    cursor:default;
+}
+.mobile-img img{
+    max-width: 100%;
+    max-height: 500px;
+    margin-top: -39px;
+}
+
+
+
+@media(max-width:768px){
+    .mobile-app .mobileContent{
+    display: flex !important;
+    margin: 3rem ;
+    
+}
+    .mobile-app > .row img{
+        display: none;
+    }
+    .mobile-app{
+        width: 100%;
+        background: linear-gradient(rgba(0, 217, 255, 0.342),rgba(0, 217, 255, 0.342)),url(/assets/img/010.webp);
+        background-position: right;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        object-position: center right;
+    }
+    .about-mobile{
+        margin-top: 3rem;
+    }
+    .mobile-img img{
+        height: auto;
+        margin-top: 0;
+    }
+}
+
+
+
+/* ------------web portal section------------------------- */
+.web-portal{
+    background:  url(/assets/img/webportal2.jpg) center no-repeat;
+    background-size:cover;
+}
+.web-portal >.row img{
+    display: block;
+    padding: 2rem 3rem;
+}
+.web-text{
+    margin: 3rem 0;
+    line-height: 2rem;
+}
+.web-text h1{
+    padding-bottom: 1rem;
+    position: relative;
+}
+.web-text h1::before{
+    content: "";
+    width:  4px;
+    height: 4px;
+    background: #ffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;  
+    /* animation: animate 1s linear; */
+    
+}
+
+.web-text h1::after{
+    content: "";
+    width: 12rem;
+    height: 4px;
+    background: #ffff;
+    position: absolute;
+    bottom: 0;
+    left: 10px;  
+    animation: animate1 1.5s linear;    
+}
+@keyframes animate1{
+    0%{
+        width: 0%;
+    }
+    50%{width: 75%;}
+    75%{width: 0%;}
+    100%{width: 30%;}
+}
+.left-col{
+    padding: 2rem 0;
+    border: 1px solid rgba(212, 212, 212, 0.205);
+    position: relative;
+    
+
+}
+.left-col::before{
+    content: "";
+    width: 0%;
+    height: 7px;
+    background: rgb(44, 169, 241);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s linear ;
+}
+.left-col:hover:before{
+    width: 100%;
+}
+.left-col:hover{
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+}
+.left-col p{
+    margin-left: 2rem;
+}
+.left-col ul{
+    list-style: none;
+    padding-bottom: 2rem;
+}
+.left-col ul li{
+    line-height: 2rem;
+    position: relative;
+}
+.left-col ul:not([class]) li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: rgb(44, 169, 241);
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+    
+}
+.icon-head i{
+    font-size: 70px;
+    color: rgb(44, 169, 241);
+}
+.icon-head h4{
+    color: rgb(44, 169, 241);
+
+}
+.left-col a{
+    background: rgb(44, 169, 241);
+    border: none;
+    color: #ffff;
+    padding: 0.5rem 5rem; 
+}
+.left-col a:hover{
+    background:rgb(28, 121, 175) ;
+}
+
+
+
+/* ---------web portal steps-------------- */
+
+:root{
+    --first: 150px;
+}
+.development-steps{
+    background: rgba(224, 224, 224, 0.24);
+}
+.steps .first{
+    height: var(--first);
+}
+.steps .first h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.steps .first span{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(146, 146, 146, 0.514);
+    margin-right: 1rem;
+    padding: 0.5rem 0.7rem;
+    position: relative;
+}
+.steps .first:hover span{
+    border: 1px solid rgb(28, 121, 175);
+}
+.steps .first:not(.last) span:before{
+    content: "";
+    width: 0.5px;
+    height: 0;
+    background: rgba(146, 146, 146, 0.514);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+.steps .first:hover span::before{ 
+    background: rgb(28, 121, 175);
+    height: calc(var(--first));
+}
+
+
+
+
+
+
+@media(max-width:993px){
+    .maxContainer{
+        max-width: 100vw;
+    }
+    .steps .first h2{
+        font-size: 18px;
+    }
+    .steps .first p{
+        font-size: 14px;
+    }
+    .service-container{
+        max-width: 1000px !important;
+    }
+}
+
+@media(max-width:768px){
+    
+    .web-text{
+        margin: 1rem 0;
+        line-height: 1.7rem;
+        width: 100% !important;
+    }
+    .web-text h1{
+        padding: 1rem 0;
+    }
+    .web-text p{
+        padding-left: 0;
+        text-align: justify;
+    }
+    .web-portal >.row .portal-img{
+        background: rgba(0, 0, 0, 0.123);
+    }
+    .steps{
+        padding: 0 !important;
+    }
+
+}
+@media(max-width:500px){
+    .steps .first:hover span::before{ 
+        height: calc(var(--first) + 1rem);
+    }    
+    .steps .first h2{
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+    .steps .first p{
+        font-size: 11px;
+    }
+}
+
+/* ---------custom software development-------------------- */
+ .custom-img{
+    padding: 1rem 0 !important;
+    
+}
+.custom-menu-2{ 
+    margin:  0.5rem;
+    background: #ffffff;
+    box-shadow: 0.5px 5px 5px rgba(0, 0, 0, 0.1)  ;
+    padding: 2rem 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.custom-menu h2{
+    padding: 1rem 0;
+    font-weight: 600;
+    color: rgba(49, 134, 245, 0.801);
+    transition: all 1s;
+    position: relative;
+}
+.custom-menu h2::after{
+    content: "";
+    width: 3rem;
+    height: 2px;
+    background: rgba(49, 134, 245, 0.801);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.custom-menu i{
+    font-size: 60px;
+    color: rgba(49, 134, 245, 0.801);
+}
+.custom-menu:hover h2{
+    opacity: 0;
+}
+.custom-menu:hover i{
+    opacity: 0;
+}
+.custom-data{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0.5rem;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: rgba(49, 134, 245, 0.801);
+    transition: all 0.5s; 
+}
+.custom-data h4{
+    color: #ffffff;
+    font-weight: 500;
+}
+.custom-data p{
+    color: #ffffffab;
+}
+.custom-menu:hover .custom-data{
+    right: 0;
+}
+
+
+.our-service-text h4{
+    position: relative;
+}
+.our-service-text h4::after{
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: rgba(49, 134, 245, 0.801);
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+}
+.service-content h4{
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+.service-content i{
+    padding-right:  1rem;
+    color: rgba(49, 134, 245, 0.801);
+}
+
+
+
+
+
+@media(max-width:500px){
+    .custom-menu{
+        padding: 2rem 0;
+    }
+    .custom-menu i{
+        font-size: 40px;
+    }
+    .custom-data{
+        padding: 5rem 2rem ;
+        
+    }
+}
+
+
+
+
+/* ----------------------------Fire sefty-------------- */
+
+.firecontent{
+    background:linear-gradient(to right, rgba(30, 67, 86, 0.74), rgba(30, 67, 86, 0.712)), url(/assets/img/firesefty.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.fireText{
+    padding: 9rem 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.fireText h1{
+    font-size: 50px;
+    width: 100%;
+    position: relative;
+}
+.fireText h1::after{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%);
+    
+}
+.fireText h4{
+    color: rgba(218, 218, 218, 0.774);
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.fireInto h3{
+    position: relative;
+}
+.fireInto h3::after{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    background: rgba(38, 86, 110, 0.788);
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    transform: translate(-50%);
+    
+}
+.introPara i{
+    color: rgba(38, 86, 110, 0.788);
+    padding-right: 1rem;
+}
+.introPara ul{
+    list-style: none;
+}
+.introPara ul li{
+    line-height: 2rem;
+    color: #666666e5;
+}
+
+
+@media(max-width:768px){
+    .fireText h1{
+        font-size: 30px;
+    }
+    .fireText h4{
+        font-size: 14px;
+    
+    }
+    
+}
+
+
+
+/* ---------Sextual harassment------- */
+.Sexualcontent{
+    padding: 2rem 0;
+    background:url(/assets/img/sextual.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SextualText{
+    padding: 3rem 0;
+}
+.SextualText h4{
+    padding: 1rem 0;
+    font-size: 20px;
+}
+.sexualIntro h3{
+    position: relative;
+}
+.sexualIntro h3::after{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    background: rgba(38, 86, 110, 0.788) ;
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+}
+.sexualImg{
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.sexualImg:hover{
+    transform: scale(1.1);
+}
+
+
+@media(max-width:768px){
+    .Sexualcontent{
+        background:linear-gradient(to right, rgba(121, 121, 121, 0.651),rgba(80, 80, 80, 0.712)),url(/assets/img/sextualmobile.jpg);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .SextualText{
+        text-align: center;
+        color: #ffffff;
+    }
+    .SextualText h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .SextualText h4{
+        font-size: 16px;
+        color: #ffffffab;
+    }
+}
